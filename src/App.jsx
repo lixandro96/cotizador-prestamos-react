@@ -43,6 +43,7 @@ function App() {
   }, [total,plazo])
 
   return (
+    
     <div className='my-10 max-w-lg mx-auto bg-white shadow p-10'>
       <Header />
       <div className='flex justify-between my-3'>
@@ -95,6 +96,8 @@ function App() {
         {formatearDinero(total)} Total a pagar 
       </p>
       </div>
+
+      <p className='text-center text-gray-500 font-bold text-sm'>Desarrollado por <a href="https://github.com/lixandro96" target="_blank" rel="noreferrer">LixandroDev</a></p>
     </div>
   )
 }
